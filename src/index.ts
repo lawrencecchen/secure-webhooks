@@ -1,4 +1,5 @@
-import { createHmac, createSign, createVerify } from 'crypto';
+// @ts-nocheck
+import { createHmac, createSign, createVerify } from 'crypto-browserify';
 
 const FIVE_MINUTES = 5 * 60 * 1000;
 
